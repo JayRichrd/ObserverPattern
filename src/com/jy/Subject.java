@@ -20,10 +20,20 @@ public abstract class Subject {
 		this.name = name;
 	}
 
+	/**
+	 * 获取状态
+	 * 
+	 * @return
+	 */
 	public String getState() {
 		return state;
 	}
 
+	/**
+	 * 获取姓名
+	 * 
+	 * @return
+	 */
 	public String getName() {
 		return name;
 	}
